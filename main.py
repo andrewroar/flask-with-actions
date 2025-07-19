@@ -8,3 +8,8 @@ def hello_world():
         return "<p>Hello, World! You just made a POST request.</p>"
     
     return "<p>Hello, World!</p>"
+
+
+@app.route("/test", methods=['GET'])
+def test():
+    return "<p>Test</p>"
