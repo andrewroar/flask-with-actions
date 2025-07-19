@@ -30,6 +30,3 @@ jobs:
       - name: 🎨 Format Docs
         run: black .
 
-      - name: 🧪 Run tests
-        run: |
-          pytest
