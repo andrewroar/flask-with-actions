@@ -3,7 +3,7 @@ name: PR Code Checks (Flask)
 on:
   pull_request:
     branches:
-      - main  # Only run on PRs targeting 'main'
+      - master  # Only run on PRs targeting 'main'
 
 jobs:
   code-check:
