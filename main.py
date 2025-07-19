@@ -10,6 +10,6 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
-@app.route("/test", methods=['GET'])
+@app.route("/test", methods=['GET' , 'POST'])
 def test():
     return "<p>Test</p>"
