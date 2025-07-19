@@ -1,0 +1,7 @@
+flask
+gunicorn
+
+# Dev tools (optional, but good for CI)
+black
+flake8
+pytest
