@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+
+# IDE configs (optional, based on your tools)
+.vscode/
+.idea/
+
+# Test cache
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Logs (optional)
+*.log
